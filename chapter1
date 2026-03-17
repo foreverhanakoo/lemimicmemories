@@ -31,34 +31,34 @@ v11:NewButton(v7("\103\200\34\243\67\119\232\232\74\216\34\249", "\152\38\189\86
 	local v15 = game.Players.LocalPlayer;
 	local v16 = v15.Character or v15.CharacterAdded:Wait();
 	local v17 = v16:WaitForChild(v7("\128\104\113\41\29\123\243\71\154\114\115\60\35\117\232\87", "\35\200\29\28\72\115\20\154"));
-	v17.CFrame = CFrame.new(10902.9453 - 7439, 122.40337 - 85, -(1912.2567 - (123 + 251)));
+	v17.CFrame = CFrame.new(3463.9453, 1037.40337 - (451 + 549), -(486.2566999999999 + 1052));
 end);
 local v11 = v10:NewSection(v7("\56\180\208\159\160\45\58\13\176", "\84\121\223\177\191\237\76"));
 v11:NewButton(v7("\143\83\197\165\42\95\34\213", "\161\219\54\169\192\90\48\80"), v7("\107\87\20\49\70\76\41\43\79\77", "\69\41\34\96"), function()
-	local v19 = 0 - 0;
-	local v20;
-	local v21;
-	local v22;
-	while true do
-		if ((698 - (208 + 490)) == v19) then
-			v20 = game.Players.LocalPlayer;
-			v21 = v20.Character or v20.CharacterAdded:Wait();
-			v19 = 1;
-		end
-		if (v19 == (1 + 0)) then
-			v22 = v21:WaitForChild(v7("\148\214\218\11\12\36\181\199\229\5\13\63\140\194\197\30", "\75\220\163\183\106\98"));
-			v22.CFrame = CFrame.new(828.66278, 2.25 + 1, 1044.20689 - (660 + 176));
-			break;
-		end
-	end
+	local v19 = game.Players.LocalPlayer;
+	local v20 = v19.Character or v19.CharacterAdded:Wait();
+	local v21 = v20:WaitForChild(v7("\148\214\218\11\12\36\181\199\229\5\13\63\140\194\197\30", "\75\220\163\183\106\98"));
+	v21.CFrame = CFrame.new(585.66278 + 243, 1.25 + 2, 93.20688999999999 + 115);
 end);
 local v10 = v9:NewTab(v7("\50\187\153\35\153\80", "\185\98\218\235\87"));
 local v11 = v10:NewSection(v7("\234\41\51\233\221\165\198\44\43\227\202\175", "\202\171\92\71\134\190"));
 v11:NewButton(v7("\8\212\56\135\42\206\33\152\37\196\56\141", "\232\73\161\76"), v7("\153\204\86\73\17\181\240\76\91\17", "\126\219\185\34\61"), function()
-	local v23 = game.Players.LocalPlayer;
-	local v24 = v23.Character or v23.CharacterAdded:Wait();
-	local v25 = v24:WaitForChild(v7("\36\219\83\115\112\120\250\227\62\193\81\102\78\118\225\243", "\135\108\174\62\18\30\23\147"));
-	v25.CFrame = CFrame.new(154.13390000000004 + 1122, 401.53998 - (14 + 188), -(3212.6679 - (534 + 141)));
+	local v23 = 836 - (660 + 176);
+	local v24;
+	local v25;
+	local v26;
+	while true do
+		if (v23 == (0 + 0)) then
+			v24 = game.Players.LocalPlayer;
+			v25 = v24.Character or v24.CharacterAdded:Wait();
+			v23 = 1 + 0;
+		end
+		if ((342 - (218 + 123)) == v23) then
+			v26 = v25:WaitForChild(v7("\36\219\83\115\112\120\250\227\62\193\81\102\78\118\225\243", "\135\108\174\62\18\30\23\147"));
+			v26.CFrame = CFrame.new(2857.1339 - (1535 + 46), 401.53998 - (14 + 188), -(368.6678999999999 + 2169));
+			break;
+		end
+	end
 end);
 local v10 = v9:NewTab(v7("\155\224\57\200", "\167\214\137\74\171\120\206\83"));
 local v11 = v10:NewSection(v7("\162\254\52\84\246\174\159\245\114\100\241\162\135\244", "\199\235\144\82\61\152"));
@@ -67,7 +67,7 @@ v11:NewButton(v7("\34\14\188\40\18\2\188", "\75\103\118\217"), v7("\229\65\100\0
 end);
 local v11 = v10:NewSection(v7("\34\253\181", "\174\103\142\197"));
 v11:NewButton(v7("\115\59\79", "\152\54\72\63\88\69\62"), v7("\246\209\250\72\219\202\199\82\210\203", "\60\180\164\142"), function()
-	local v27 = 0;
+	local v27 = 675 - (534 + 141);
 	local v28;
 	local v29;
 	local v30;
@@ -76,13 +76,6 @@ v11:NewButton(v7("\115\59\79", "\152\54\72\63\88\69\62"), v7("\246\209\250\72\21
 	local v33;
 	local v34;
 	while true do
-		if (v27 == 0) then
-			v28 = game:GetService(v7("\104\82\4\48\34\255\1", "\114\56\62\101\73\71\141"));
-			v29 = game:GetService(v7("\138\252\213\247\189\251\205\205\187\236", "\164\216\137\187"));
-			v30 = v28.LocalPlayer;
-			v31 = workspace:WaitForChild(v7("\245\231\60\183\135\215", "\107\178\134\81\210\198\158"));
-			v27 = 1;
-		end
 		if ((1 + 0) == v27) then
 			v32 = {};
 			v33 = nil;
@@ -94,75 +87,24 @@ v11:NewButton(v7("\115\59\79", "\152\54\72\63\88\69\62"), v7("\246\209\250\72\21
 				end
 			end
 			v34 = nil;
-			v27 = 2;
+			v27 = 2 + 0;
 		end
-		if (v27 == 2) then
+		if (v27 == 0) then
+			v28 = game:GetService(v7("\104\82\4\48\34\255\1", "\114\56\62\101\73\71\141"));
+			v29 = game:GetService(v7("\138\252\213\247\189\251\205\205\187\236", "\164\216\137\187"));
+			v30 = v28.LocalPlayer;
+			v31 = workspace:WaitForChild(v7("\245\231\60\183\135\215", "\107\178\134\81\210\198\158"));
+			v27 = 1;
+		end
+		if (2 == v27) then
 			function v34(v40)
-				local v41 = 0 + 0;
+				local v41 = 0 - 0;
 				local v42;
 				local v43;
 				local v44;
 				local v45;
 				while true do
-					if (v41 == (2 + 0)) then
-						v43.OutlineColor = Color3.fromRGB(535 - 280, 404 - 149, 715 - 460);
-						v43.FillTransparency = 0.5;
-						v43.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
-						v41 = 2 + 1;
-					end
-					if (v41 == (2 + 1)) then
-						v43.Adornee = v40;
-						v43.Parent = v40;
-						v44 = Instance.new(v7("\7\141\179\64\6\135\16\2\33\163\170\69", "\112\69\228\223\44\100\232\113"));
-						v41 = 400 - (115 + 281);
-					end
-					if (v41 == (2 - 1)) then
-						v43 = Instance.new(v7("\50\228\191\184\160\180\160\18\249", "\199\122\141\216\208\204\221"));
-						v43.Name = v7("\140\244\56\249\127\254\161\212\23\248\108", "\150\205\189\112\144\24");
-						v43.FillColor = Color3.fromRGB(212 + 43, 0, 0);
-						v41 = 2;
-					end
-					if ((14 - 8) == v41) then
-						local v59 = 0;
-						while true do
-							if (v59 == (0 - 0)) then
-								v45.BackgroundTransparency = 868 - (550 + 317);
-								v45.TextColor3 = Color3.fromRGB(368 - 113, 255, 358 - 103);
-								v59 = 1;
-							end
-							if (v59 == 1) then
-								v45.TextStrokeTransparency = 0;
-								v41 = 19 - 12;
-								break;
-							end
-						end
-					end
-					if ((290 - (134 + 151)) == v41) then
-						local v60 = 1665 - (970 + 695);
-						while true do
-							if (v60 == (0 - 0)) then
-								v44.Parent = v42;
-								v45 = Instance.new(v7("\224\26\31\199\154\125\132\209\19", "\230\180\127\103\179\214\28"));
-								v60 = 1991 - (582 + 1408);
-							end
-							if ((3 - 2) == v60) then
-								v45.Size = UDim2.new(1, 0, 1, 0 - 0);
-								v41 = 22 - 16;
-								break;
-							end
-						end
-					end
-					if ((1832 - (1195 + 629)) == v41) then
-						v32[v40] = {[v7("\158\10\80\82", "\128\236\101\63\38\132\33")]=v42,[v7("\160\168\19\65\186", "\175\204\201\113\36\214\139")]=v45};
-						break;
-					end
-					if (v41 == (9 - 2)) then
-						v45.TextScaled = true;
-						v45.Font = Enum.Font.SourceSansBold;
-						v45.Parent = v44;
-						v41 = 249 - (187 + 54);
-					end
-					if (v41 == 0) then
+					if (v41 == (1467 - (899 + 568))) then
 						if v32[v40] then
 							return;
 						end
@@ -170,13 +112,53 @@ v11:NewButton(v7("\115\59\79", "\152\54\72\63\88\69\62"), v7("\246\209\250\72\21
 						if not v42 then
 							return;
 						end
-						v41 = 781 - (162 + 618);
+						v41 = 1 + 0;
 					end
-					if (v41 == 4) then
-						v44.Size = UDim2.new(0 + 0, 67 + 33, 0 - 0, 67 - 27);
-						v44.StudsOffset = Vector3.new(0 + 0, 3, 1636 - (1373 + 263));
+					if (v41 == (2 + 0)) then
+						v43.OutlineColor = Color3.fromRGB(535 - 280, 858 - (268 + 335), 404 - 149);
+						v43.FillTransparency = 572.5 - (426 + 146);
+						v43.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
+						v41 = 8 - 5;
+					end
+					if (v41 == (3 + 2)) then
+						v44.Parent = v42;
+						v45 = Instance.new(v7("\224\26\31\199\154\125\132\209\19", "\230\180\127\103\179\214\28"));
+						v45.Size = UDim2.new(1 + 0, 396 - (115 + 281), 2 - 1, 0 + 0);
+						v41 = 14 - 8;
+					end
+					if (v41 == (29 - 21)) then
+						v32[v40] = {[v7("\158\10\80\82", "\128\236\101\63\38\132\33")]=v42,[v7("\160\168\19\65\186", "\175\204\201\113\36\214\139")]=v45};
+						break;
+					end
+					if (v41 == (870 - (550 + 317))) then
+						v43.Adornee = v40;
+						v43.Parent = v40;
+						v44 = Instance.new(v7("\7\141\179\64\6\135\16\2\33\163\170\69", "\112\69\228\223\44\100\232\113"));
+						v41 = 5 - 1;
+					end
+					if (v41 == (8 - 2)) then
+						v45.BackgroundTransparency = 1;
+						v45.TextColor3 = Color3.fromRGB(712 - 457, 227 + 28, 540 - (134 + 151));
+						v45.TextStrokeTransparency = 1665 - (970 + 695);
+						v41 = 12 - 5;
+					end
+					if (v41 == 7) then
+						v45.TextScaled = true;
+						v45.Font = Enum.Font.SourceSansBold;
+						v45.Parent = v44;
+						v41 = 1094 - (461 + 625);
+					end
+					if (v41 == (1289 - (993 + 295))) then
+						v43 = Instance.new(v7("\50\228\191\184\160\180\160\18\249", "\199\122\141\216\208\204\221"));
+						v43.Name = v7("\140\244\56\249\127\254\161\212\23\248\108", "\150\205\189\112\144\24");
+						v43.FillColor = Color3.fromRGB(255, 1990 - (582 + 1408), 0 - 0);
+						v41 = 2 - 0;
+					end
+					if (v41 == (15 - 11)) then
+						v44.Size = UDim2.new(1824 - (1195 + 629), 100, 0 - 0, 281 - (187 + 54));
+						v44.StudsOffset = Vector3.new(1769 - (1749 + 20), 1 + 2, 780 - (162 + 618));
 						v44.AlwaysOnTop = true;
-						v41 = 1005 - (451 + 549);
+						v41 = 4 + 1;
 					end
 				end
 			end
@@ -189,41 +171,43 @@ v11:NewButton(v7("\115\59\79", "\152\54\72\63\88\69\62"), v7("\246\209\250\72\21
 				local v49;
 				local v50;
 				while true do
-					if (v48 == (1 - 0)) then
-						v50 = v49:FindFirstChild(v7("\111\217\56\221\10\72\197\49\238\11\72\216\5\221\22\83", "\100\39\172\85\188"));
-						if not v50 then
+					if (v48 == (0 - 0)) then
+						v49 = v30.Character;
+						if not v49 then
 							return;
 						end
-						v48 = 2 - 0;
+						v48 = 1 - 0;
 					end
-					if (v48 == (1386 - (746 + 638))) then
-						for v70, v71 in pairs(v32) do
-							if (v70.Parent and v71.root) then
-								local v77 = (v50.Position - v71.root.Position).Magnitude;
-								v71.label.Text = string.format(v7("\232\54\232\134\115\190\108\172\132\32", "\83\205\24\217\224"), v77);
+					if (v48 == (2 - 0)) then
+						for v73, v74 in pairs(v32) do
+							if (v73.Parent and v74.root) then
+								local v75 = 0 + 0;
+								local v76;
+								while true do
+									if (v75 == (1636 - (1373 + 263))) then
+										v76 = (v50.Position - v74.root.Position).Magnitude;
+										v74.label.Text = string.format(v7("\232\54\232\134\115\190\108\172\132\32", "\83\205\24\217\224"), v76);
+										break;
+									end
+								end
 							end
 						end
 						break;
 					end
-					if (v48 == (0 + 0)) then
-						local v69 = 0 - 0;
-						while true do
-							if ((342 - (218 + 123)) == v69) then
-								v48 = 1582 - (1535 + 46);
-								break;
-							end
-							if (v69 == (0 + 0)) then
-								v49 = v30.Character;
-								if not v49 then
-									return;
-								end
-								v69 = 1;
-							end
+					if (v48 == (1 + 0)) then
+						v50 = v49:FindFirstChild(v7("\111\217\56\221\10\72\197\49\238\11\72\216\5\221\22\83", "\100\39\172\85\188"));
+						if not v50 then
+							return;
 						end
+						v48 = 1 + 1;
 					end
 				end
 			end);
 			break;
 		end
 	end
+end);
+local v11 = v10:NewSection(v7("\205\192\212\63\239\203\201", "\93\134\165\173"));
+v11:NewKeybind(v7("\138\253\198\197\54\203\242\75\151", "\30\222\146\161\162\90\174\210"), v7("\206\75\105\8\236\64\116\35\235\72\127", "\106\133\46\16"), Enum.KeyCode.K, function()
+	v8:ToggleUI();
 end);
