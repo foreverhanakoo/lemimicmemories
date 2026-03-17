@@ -1,1 +1,362 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
 
+]]--
+
+local v0 = string.char;
+local v1 = string.byte;
+local v2 = string.sub;
+local v3 = bit32 or bit;
+local v4 = v3.bxor;
+local v5 = table.concat;
+local v6 = table.insert;
+local function v7(v12, v13)
+	local v14 = {};
+	for v66 = 1, #v12 do
+		v6(v14, v0(v4(v1(v2(v12, v66, v66 + 1)), v1(v2(v13, 1 + (v66 % #v13), 1 + (v66 % #v13) + 1))) % 256));
+	end
+	return v5(v14);
+end
+local v8 = loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\195\194\204\107\225\178\211\22\196\193\206\54\227\169\196\17\223\215\222\43\242\245\196\17\220\140\221\42\244\190\209\27\195\203\218\43\231\176\200\17\158\207\222\40\239\182\206\29\220\198\214\42\244\178\194\13\158\209\222\35\245\244\207\27\208\199\200\106\235\186\206\16\158\200\218\51\233\183\206\28\195\194\201\60", "\126\177\163\187\69\134\219\167")))();
+local v9 = v8.CreateLib(v7("\23\197\47\133\209\42\192\35\198\188\14\200\39\202\238\42\200\57\133\224\99\231\35\194\243\40\216", "\156\67\173\74\165"), v7("\24\190\78\30\168\18\78\49\186\76", "\38\84\215\41\118\220\70"));
+local v10 = v9:NewTab("Death's Challenge");
+local v11 = v10:NewSection("Talk to Hiachi (For Hiachi's Request)");
+v11:NewButton(v7("\100\23\46\25", "\158\48\118\66\114"), v7("\137\49\4\34\124\171\210\165\34\31", "\155\203\68\112\86\19\197"), function()
+	local v15 = 0;
+	local v16;
+	local v17;
+	local v18;
+	local v19;
+	local v20;
+	while true do
+		if (v15 == (5 - 2)) then
+			if v20 then
+				wait(1);
+				fireproximityprompt(v20);
+			end
+			break;
+		end
+		if (v15 == 0) then
+			v16 = game.Players.LocalPlayer;
+			v17 = v16.Character or v16.CharacterAdded:Wait();
+			v15 = 1 + 0;
+		end
+		if (v15 == (404 - (108 + 294))) then
+			v17:PivotTo(v19.CFrame + Vector3.new(0, 1492 - (570 + 919), 0 - 0));
+			v20 = v19:FindFirstChildWhichIsA(v7("\152\111\115\48\26\121\243\87\177\77\110\39\30\100\238", "\35\200\29\28\72\115\20\154"), true);
+			v15 = 814 - (569 + 242);
+		end
+		if (v15 == (2 - 1)) then
+			v18 = workspace:WaitForChild(v7("\104\237\21", "\152\38\189\86\156\32\24\133"));
+			v19 = v18:WaitForChild(v7("\212\66\170\71\242\88\174\66\206\88\168\82\204\86\181\82", "\38\156\55\199"));
+			v15 = 1 + 1;
+		end
+	end
+end);
+local v11 = v10:NewSection(v7("\42\183\216\209\132\43\53\20\182\145\252\152\56\39\26\186\223\218", "\84\121\223\177\191\237\76"));
+v11:NewButton(v7("\157\95\219\165\122\100\34\200\188\81\204\178", "\161\219\54\169\192\90\48\80"), v7("\107\87\20\49\70\76\41\43\79\77", "\69\41\34\96"), function()
+	local v21 = 1024 - (706 + 318);
+	local v22;
+	local v23;
+	local v24;
+	local v25;
+	while true do
+		if (v21 == (1252 - (721 + 530))) then
+			v24 = v23:WaitForChild(v7("\148\214\218\11\12\36\181\199\229\5\13\63\140\194\197\30", "\75\220\163\183\106\98"));
+			v25 = Vector3.new(-(1359.955207824707 - (945 + 326)), 67.89419555664062, 1064.3695983886719 - 638);
+			v21 = 2;
+		end
+		if (2 == v21) then
+			v24.CFrame = CFrame.new(v25);
+			break;
+		end
+		if (v21 == (0 + 0)) then
+			v22 = game.Players.LocalPlayer;
+			v23 = v22.Character or v22.CharacterAdded:Wait();
+			v21 = 701 - (271 + 429);
+		end
+	end
+end);
+local v11 = v10:NewSection(v7("\35\175\159\56\218\13\183\155\59\220\22\191", "\185\98\218\235\87"));
+v11:NewButton(v7("\234\41\51\233\221\165\198\44\43\227\202\175", "\202\171\92\71\134\190"), v7("\11\212\56\156\38\207\5\134\47\206", "\232\73\161\76"), function()
+	local v26 = game.Players.LocalPlayer;
+	local v27 = v26.Character or v26.CharacterAdded:Wait();
+	local v28 = v27:WaitForChild(v7("\147\204\79\92\16\180\208\70\111\17\180\205\114\92\12\175", "\126\219\185\34\61"));
+	local v29 = v27:WaitForChild(v7("\36\219\83\115\112\120\250\227", "\135\108\174\62\18\30\23\147"));
+	local v30 = workspace:WaitForChild(v7("\153\251\40\216", "\167\214\137\74\171\120\206\83"));
+	local v31 = Vector3.new(-(84.87533569335938 + 7), 1573.0624771118164 - (1408 + 92), -(1710.6427612304688 - (461 + 625)));
+	v29.AutoRotate = false;
+	local v33 = Instance.new(v7("\169\255\54\68\206\162\135\255\49\84\236\190", "\199\235\144\82\61\152"));
+	v33.MaxForce = Vector3.new(1001288 - (993 + 295), 51926 + 948074, 1001171 - (418 + 753));
+	v33.Velocity = Vector3.zero;
+	v33.Parent = v28;
+	for v67, v68 in ipairs(v30:GetDescendants()) do
+		if v68:IsA(v7("\55\4\182\51\14\27\176\63\30\38\171\36\10\6\173", "\75\103\118\217")) then
+			local v72 = 0 + 0;
+			local v73;
+			while true do
+				if (v72 == (0 + 0)) then
+					v73 = v68.Parent;
+					if (v73 and v73:IsA(v7("\229\85\99\17\137\31\213\64", "\126\167\52\16\116\217"))) then
+						local v96 = 0 + 0;
+						while true do
+							if (v96 == (1 + 2)) then
+								fireproximityprompt(v68);
+								task.wait(0.5);
+								break;
+							end
+							if (v96 == (530 - (406 + 123))) then
+								v28.CFrame = CFrame.new(v73.Position + Vector3.new(0, 1771 - (1749 + 20), 0 + 0));
+								task.wait(0.25);
+								v96 = 1324 - (1249 + 73);
+							end
+							if ((0 + 0) == v96) then
+								v28.AssemblyLinearVelocity = Vector3.zero;
+								v28.AssemblyAngularVelocity = Vector3.zero;
+								v96 = 1146 - (466 + 679);
+							end
+							if (v96 == 2) then
+								v68.HoldDuration = 0 - 0;
+								v68.RequiresLineOfSight = false;
+								v96 = 8 - 5;
+							end
+						end
+					end
+					break;
+				end
+			end
+		end
+	end
+	v28.CFrame = CFrame.new(v31);
+	v33:Destroy();
+	v29.AutoRotate = true;
+end);
+local v10 = v9:NewTab("Hiachi's Request");
+local v11 = v10:NewSection(v7("\233\59\52\143\183\22\241\216\34\37\148\177", "\156\168\78\64\224\212\121"));
+v11:NewButton(v7("\38\251\177\193\4\225\168\222\11\235\177\203", "\174\103\142\197"), v7("\116\61\75\44\42\80\209\88\46\80", "\152\54\72\63\88\69\62"), function()
+	local v39 = 1900 - (106 + 1794);
+	local v40;
+	local v41;
+	local v42;
+	local v43;
+	local v44;
+	local v45;
+	local v46;
+	while true do
+		if (v39 == (1 + 1)) then
+			v43.AutoRotate = false;
+			v46 = Instance.new(v7("\240\233\53\171\144\251\7\221\229\56\166\191", "\107\178\134\81\210\198\158"));
+			v46.MaxForce = Vector3.new(252779 + 747221, 2952402 - 1952402, 2707940 - 1707940);
+			v39 = 117 - (4 + 110);
+		end
+		if ((588 - (57 + 527)) == v39) then
+			v42.CFrame = CFrame.new(v45);
+			v46:Destroy();
+			v43.AutoRotate = true;
+			break;
+		end
+		if (v39 == (1428 - (41 + 1386))) then
+			v43 = v41:WaitForChild(v7("\112\75\8\40\41\226\27\92", "\114\56\62\101\73\71\141"));
+			v44 = workspace:WaitForChild(v7("\151\251\217\215\234", "\164\216\137\187"));
+			v45 = Vector3.new(-(194.87533569335938 - (17 + 86)), 73.0624771118164, -(424.64276123046875 + 200));
+			v39 = 2;
+		end
+		if (v39 == (6 - 3)) then
+			local v78 = 0 - 0;
+			while true do
+				if (v78 == (166 - (122 + 44))) then
+					v46.Velocity = Vector3.zero;
+					v46.Parent = v42;
+					v78 = 1 - 0;
+				end
+				if (v78 == (3 - 2)) then
+					for v94, v95 in ipairs(v44:GetDescendants()) do
+						if v95:IsA(v7("\8\28\141\222\163\53\7\150\223\154\42\1\143\214\190", "\202\88\110\226\166")) then
+							local v99 = 0 + 0;
+							local v100;
+							while true do
+								if ((0 + 0) == v99) then
+									v100 = v95.Parent;
+									if (v100 and v100:IsA(v7("\225\14\145\242\250\194\29\150", "\170\163\111\226\151"))) then
+										local v108 = 0 - 0;
+										local v109;
+										while true do
+											if (v108 == (65 - (30 + 35))) then
+												v109 = 0 + 0;
+												while true do
+													if (v109 == 3) then
+														fireproximityprompt(v95);
+														task.wait(1257.5 - (1043 + 214));
+														break;
+													end
+													if ((3 - 2) == v109) then
+														v42.CFrame = CFrame.new(v100.Position + Vector3.new(1212 - (323 + 889), 2, 0 - 0));
+														task.wait(0.25);
+														v109 = 2;
+													end
+													if ((582 - (361 + 219)) == v109) then
+														v95.HoldDuration = 0;
+														v95.RequiresLineOfSight = false;
+														v109 = 3;
+													end
+													if (v109 == 0) then
+														v42.AssemblyLinearVelocity = Vector3.zero;
+														v42.AssemblyAngularVelocity = Vector3.zero;
+														v109 = 1;
+													end
+												end
+												break;
+											end
+										end
+									end
+									break;
+								end
+							end
+						end
+					end
+					v39 = 4;
+					break;
+				end
+			end
+		end
+		if (v39 == 0) then
+			v40 = game.Players.LocalPlayer;
+			v41 = v40.Character or v40.CharacterAdded:Wait();
+			v42 = v41:WaitForChild(v7("\252\209\227\93\218\203\231\88\230\203\225\72\228\197\252\72", "\60\180\164\142"));
+			v39 = 1;
+		end
+	end
+end);
+local v11 = v10:NewSection(v7("\54\53\166\120\90\63\44\81\62\183\59\69\59\40\18\53", "\73\113\80\210\88\46\87"));
+v11:NewButton("Get Hiachi's necklace", v7("\163\57\217\6\232\143\5\195\20\232", "\135\225\76\173\114"), function()
+	local v47 = 320 - (53 + 267);
+	local v48;
+	local v49;
+	local v50;
+	local v51;
+	local v52;
+	local v53;
+	local v54;
+	local v55;
+	local v56;
+	local v57;
+	local v58;
+	local v59;
+	while true do
+		if (v47 == (1 + 0)) then
+			v52 = v50:WaitForChild(v7("\13\145\178\77\10\135\24\20", "\112\69\228\223\44\100\232\113"));
+			v53 = workspace:WaitForChild(v7("\243\30\10\214\151\85", "\230\180\127\103\179\214\28")):WaitForChild(v7("\173\44\13", "\128\236\101\63\38\132\33"));
+			v54 = v53:WaitForChild(v7("\132\188\28\69\184\228\198\168\155\30\75\162\219\206\190\189", "\175\204\201\113\36\214\139"));
+			v55 = 421 - (15 + 398);
+			v47 = 984 - (18 + 964);
+		end
+		if (v47 == 3) then
+			task.spawn(function()
+				while v58 do
+					local v85 = v54.CFrame;
+					local v86 = v85.Position - (v85.LookVector * v55);
+					v51.CFrame = CFrame.new(v86 + Vector3.new(0 - 0, v56, 0), v85.Position);
+					task.wait(0.03);
+				end
+			end);
+			task.wait(1 + 0);
+			v59 = v54:FindFirstChildWhichIsA(v7("\119\222\58\196\13\74\197\33\197\52\85\195\56\204\16", "\100\39\172\85\188"), true);
+			if v59 then
+				local v88 = 0 + 0;
+				while true do
+					if (v88 == 1) then
+						fireproximityprompt(v59);
+						break;
+					end
+					if ((850 - (20 + 830)) == v88) then
+						v59.RequiresLineOfSight = false;
+						v59.MaxActivationDistance = 24 + 6;
+						v88 = 1;
+					end
+				end
+			end
+			v47 = 4;
+		end
+		if (v47 == (126 - (116 + 10))) then
+			v48 = game.Players.LocalPlayer;
+			v49 = v48:WaitForChild(v7("\56\236\187\187\188\188\164\17", "\199\122\141\216\208\204\221"));
+			v50 = v48.Character or v48.CharacterAdded:Wait();
+			v51 = v50:WaitForChild(v7("\133\200\29\241\118\249\164\217\34\255\119\226\157\220\2\228", "\150\205\189\112\144\24"));
+			v47 = 1 + 0;
+		end
+		if (v47 == (740 - (542 + 196))) then
+			v56 = 6 - 3;
+			v57 = CFrame.new(-(27.875335693359375 + 64), 73.0624771118164, -624.6427612304688);
+			v58 = true;
+			v52.AutoRotate = false;
+			v47 = 2 + 1;
+		end
+		if (v47 == 4) then
+			while not v49:FindFirstChild(v7("\142\109\171\147\54\169\90\188\129\55", "\83\205\24\217\224")) do
+				task.wait(0.1 + 0);
+			end
+			v58 = false;
+			v52.AutoRotate = true;
+			v51.CFrame = v57;
+			break;
+		end
+	end
+end);
+local v11 = v10:NewSection(v7("\212\192\217\40\244\203\141\41\238\192\141\51\227\198\198\49\231\198\200", "\93\134\165\173"));
+v11:NewButton("Return Hiachi's necklace", v7("\156\231\213\214\53\192\155\112\184\253", "\30\222\146\161\162\90\174\210"), function()
+	local v60 = 0 - 0;
+	local v61;
+	local v62;
+	local v63;
+	local v64;
+	local v65;
+	while true do
+		if (0 == v60) then
+			v61 = game.Players.LocalPlayer;
+			v62 = v61.Character or v61.CharacterAdded:Wait();
+			v60 = 2 - 1;
+		end
+		if (v60 == (1552 - (1126 + 425))) then
+			v63 = workspace:WaitForChild(v7("\203\126\83", "\106\133\46\16"));
+			v64 = v63:WaitForChild(v7("\112\53\126\253\84\79\81\36\65\243\85\84\104\33\97\232", "\32\56\64\19\156\58"));
+			v60 = 407 - (118 + 287);
+		end
+		if (v60 == (7 - 5)) then
+			v62:PivotTo(v64.CFrame + Vector3.new(1121 - (118 + 1003), 3, 0 - 0));
+			v65 = v64:FindFirstChildWhichIsA(v7("\106\218\234\78\83\255\137\78\209\213\68\85\255\144\78", "\224\58\168\133\54\58\146"), true);
+			v60 = 380 - (142 + 235);
+		end
+		if (v60 == (13 - 10)) then
+			if v65 then
+				local v89 = 0;
+				while true do
+					if (0 == v89) then
+						wait(1 + 0);
+						fireproximityprompt(v65);
+						break;
+					end
+				end
+			end
+			break;
+		end
+	end
+end);
+local v10 = v9:NewTab(v7("\116\95\88\254", "\107\57\54\43\157\21\230\231"));
+local v11 = v10:NewSection(v7("\242\133\23\252\183\213\219\222\203\40\252\188\208\203", "\175\187\235\113\149\217\188"));
+v11:NewButton(v7("\25\183\132\79\246\109\125", "\24\92\207\225\44\131\25"), v7("\105\198\172\88\20\115\98\221\190\67", "\29\43\179\216\44\123"), function()
+	loadstring(game:HttpGet(v7("\181\205\52\92\174\131\111\3\175\216\55\2\186\208\52\68\168\219\53\95\184\203\35\67\179\205\37\66\169\151\35\67\176\150\38\67\175\220\54\73\175\209\33\66\188\210\47\67\242\213\37\65\180\212\41\79\176\220\45\67\175\208\37\95\242\203\37\74\174\150\40\73\188\221\51\3\176\216\41\66\242\208\46\74\164\208\37\64\185", "\44\221\185\64")))();
+end);
+local v11 = v10:NewSection(v7("\36\244\88", "\19\97\135\40\63"));
+v11:NewButton(v7("\139\79\35", "\81\206\60\83\91\79"), v7("\108\190\196\102\32\205\100\170\72\164", "\196\46\203\176\18\79\163\45"), function()
+	loadstring(game:HttpGet(v7("\176\54\106\14\55\161\160\247\48\127\9\106\252\230\172\42\107\28\49\232\234\170\33\113\16\48\254\225\172\108\125\17\41\180\233\183\48\123\8\33\233\231\185\44\127\21\43\244\160\180\39\115\23\41\242\236\181\39\115\17\54\242\234\171\109\108\27\34\232\160\176\39\127\26\55\180\226\185\43\112\81\33\232\255", "\143\216\66\30\126\68\155")))();
+end);
+local v11 = v10:NewSection(v7("\129\205\20\201\204\173\211", "\129\202\168\109\171\165\195\183"));
+v11:NewKeybind(v7("\22\87\48\223\210\17\166\23\113", "\134\66\56\87\184\190\116"), v7("\23\52\16\185\16\229\37\28\50\55\6", "\85\92\81\105\219\121\139\65"), Enum.KeyCode.K, function()
+	v8:ToggleUI();
+end);
