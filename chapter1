@@ -18,8 +18,8 @@ local v5 = table.concat;
 local v6 = table.insert;
 local function v7(v12, v13)
 	local v14 = {};
-	for v35 = 1, #v12 do
-		v6(v14, v0(v4(v1(v2(v12, v35, v35 + 1)), v1(v2(v13, 1 + (v35 % #v13), 1 + (v35 % #v13) + 1))) % 256));
+	for v34 = 1, #v12 do
+		v6(v14, v0(v4(v1(v2(v12, v34, v34 + 1)), v1(v2(v13, 1 + (v34 % #v13), 1 + (v34 % #v13) + 1))) % 256));
 	end
 	return v5(v14);
 end
@@ -28,20 +28,20 @@ local v9 = v8.CreateLib(v7("\23\197\47\133\209\42\192\35\198\188\14\200\39\202\2
 local v10 = v9:NewTab(v7("\96\23\48\6\190\1", "\158\48\118\66\114"));
 local v11 = v10:NewSection(v7("\138\49\4\57\112\170\246\187\40\21\34\118", "\155\203\68\112\86\19\197"));
 v11:NewButton(v7("\103\200\34\243\67\119\232\232\74\216\34\249", "\152\38\189\86\156\32\24\133"), v7("\222\66\179\82\243\89\142\72\250\88", "\38\156\55\199"), function()
-	local v15 = 0;
+	local v15 = 0 - 0;
 	local v16;
 	local v17;
 	local v18;
 	while true do
-		if (v15 == (1 + 0)) then
-			v18 = v17:WaitForChild(v7("\128\104\113\41\29\123\243\71\154\114\115\60\35\117\232\87", "\35\200\29\28\72\115\20\154"));
-			v18.CFrame = CFrame.new(3605.9453 - (72 + 70), 1299.40337 - (1091 + 171), -(248.2566999999999 + 1290));
-			break;
-		end
-		if (0 == v15) then
+		if (v15 == (1262 - (1091 + 171))) then
 			v16 = game.Players.LocalPlayer;
 			v17 = v16.Character or v16.CharacterAdded:Wait();
-			v15 = 3 - 2;
+			v15 = 1 + 0;
+		end
+		if ((3 - 2) == v15) then
+			v18 = v17:WaitForChild(v7("\128\104\113\41\29\123\243\71\154\114\115\60\35\117\232\87", "\35\200\29\28\72\115\20\154"));
+			v18.CFrame = CFrame.new(3463.9453, 122.40337 - 85, -(1912.2567 - (123 + 251)));
+			break;
 		end
 	end
 end);
@@ -52,25 +52,37 @@ v11:NewButton(v7("\143\83\197\165\42\95\34\213", "\161\219\54\169\192\90\48\80")
 	local v21;
 	local v22;
 	while true do
-		if (v19 == 0) then
+		if (v19 == (699 - (208 + 490))) then
+			v22 = v21:WaitForChild(v7("\148\214\218\11\12\36\181\199\229\5\13\63\140\194\197\30", "\75\220\163\183\106\98"));
+			v22.CFrame = CFrame.new(70.66278 + 758, 2.25 + 1, 208.20689);
+			break;
+		end
+		if (v19 == (836 - (660 + 176))) then
 			v20 = game.Players.LocalPlayer;
 			v21 = v20.Character or v20.CharacterAdded:Wait();
-			v19 = 375 - (123 + 251);
-		end
-		if (v19 == 1) then
-			v22 = v21:WaitForChild(v7("\148\214\218\11\12\36\181\199\229\5\13\63\140\194\197\30", "\75\220\163\183\106\98"));
-			v22.CFrame = CFrame.new(4114.66278 - 3286, 701.25 - (208 + 490), 18.206889999999987 + 190);
-			break;
+			v19 = 1 + 0;
 		end
 	end
 end);
 local v10 = v9:NewTab(v7("\50\187\153\35\153\80", "\185\98\218\235\87"));
 local v11 = v10:NewSection(v7("\234\41\51\233\221\165\198\44\43\227\202\175", "\202\171\92\71\134\190"));
 v11:NewButton(v7("\8\212\56\135\42\206\33\152\37\196\56\141", "\232\73\161\76"), v7("\153\204\86\73\17\181\240\76\91\17", "\126\219\185\34\61"), function()
-	local v23 = game.Players.LocalPlayer;
-	local v24 = v23.Character or v23.CharacterAdded:Wait();
-	local v25 = v24:WaitForChild(v7("\36\219\83\115\112\120\250\227\62\193\81\102\78\118\225\243", "\135\108\174\62\18\30\23\147"));
-	v25.CFrame = CFrame.new(569.1339 + 707, 199.53998, -(3373.6679 - (660 + 176)));
+	local v23 = 202 - (14 + 188);
+	local v24;
+	local v25;
+	local v26;
+	while true do
+		if (v23 == (676 - (534 + 141))) then
+			v26 = v25:WaitForChild(v7("\36\219\83\115\112\120\250\227\62\193\81\102\78\118\225\243", "\135\108\174\62\18\30\23\147"));
+			v26.CFrame = CFrame.new(1276.1339, 81.53998000000001 + 118, -2537.6679);
+			break;
+		end
+		if (v23 == (0 + 0)) then
+			v24 = game.Players.LocalPlayer;
+			v25 = v24.Character or v24.CharacterAdded:Wait();
+			v23 = 1 + 0;
+		end
+	end
 end);
 local v10 = v9:NewTab(v7("\155\224\57\200", "\167\214\137\74\171\120\206\83"));
 local v11 = v10:NewSection(v7("\162\254\52\84\246\174\159\245\114\100\241\162\135\244", "\199\235\144\82\61\152"));
@@ -79,130 +91,120 @@ v11:NewButton(v7("\34\14\188\40\18\2\188", "\75\103\118\217"), v7("\229\65\100\0
 end);
 local v11 = v10:NewSection(v7("\34\253\181", "\174\103\142\197"));
 v11:NewButton(v7("\115\59\79", "\152\54\72\63\88\69\62"), v7("\246\209\250\72\219\202\199\82\210\203", "\60\180\164\142"), function()
-	local v27 = 0;
-	local v28;
-	local v29;
-	local v30;
-	local v31;
-	local v32;
-	local v33;
-	local v34;
-	while true do
-		if (v27 == (0 + 0)) then
-			v28 = game:GetService(v7("\104\82\4\48\34\255\1", "\114\56\62\101\73\71\141"));
-			v29 = game:GetService(v7("\138\252\213\247\189\251\205\205\187\236", "\164\216\137\187"));
-			v30 = v28.LocalPlayer;
-			v31 = workspace:WaitForChild(v7("\245\231\60\183\135\215", "\107\178\134\81\210\198\158"));
-			v27 = 203 - (14 + 188);
-		end
-		if (v27 == 2) then
-			function v34(v41)
-				local v42 = 675 - (534 + 141);
-				local v43;
-				local v44;
-				local v45;
-				local v46;
-				while true do
-					if (v42 == (3 + 2)) then
-						v46.TextStrokeTransparency = 0 + 0;
-						v46.TextScaled = true;
-						v46.Font = Enum.Font.SourceSansBold;
-						v46.Parent = v45;
-						v42 = 6 + 0;
-					end
-					if (1 == v42) then
-						v44.Name = v7("\140\244\56\249\127\254\161\212\23\248\108", "\150\205\189\112\144\24");
-						v44.FillColor = Color3.fromRGB(535 - 280, 0 - 0, 0);
-						v44.OutlineColor = Color3.fromRGB(715 - 460, 255, 137 + 118);
-						v44.FillTransparency = 0.5;
-						v42 = 2 + 0;
-					end
-					if (v42 == 3) then
-						v45.Size = UDim2.new(396 - (115 + 281), 232 - 132, 0 + 0, 96 - 56);
-						v45.StudsOffset = Vector3.new(0, 10 - 7, 867 - (550 + 317));
-						v45.AlwaysOnTop = true;
-						v45.Parent = v43;
-						v42 = 5 - 1;
-					end
-					if (v42 == 4) then
-						v46 = Instance.new(v7("\224\26\31\199\154\125\132\209\19", "\230\180\127\103\179\214\28"));
-						v46.Size = UDim2.new(1 - 0, 0, 1, 0 - 0);
-						v46.BackgroundTransparency = 286 - (134 + 151);
-						v46.TextColor3 = Color3.fromRGB(255, 1920 - (970 + 695), 486 - 231);
-						v42 = 5;
-					end
-					if (v42 == (1990 - (582 + 1408))) then
-						if v32[v41] then
-							return;
-						end
-						v43 = v33(v41);
-						if not v43 then
-							return;
-						end
-						v44 = Instance.new(v7("\50\228\191\184\160\180\160\18\249", "\199\122\141\216\208\204\221"));
-						v42 = 1;
-					end
-					if (v42 == 2) then
-						v44.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
-						v44.Adornee = v41;
-						v44.Parent = v41;
-						v45 = Instance.new(v7("\7\141\179\64\6\135\16\2\33\163\170\69", "\112\69\228\223\44\100\232\113"));
-						v42 = 10 - 7;
-					end
-					if (v42 == (7 - 1)) then
-						v32[v41] = {[v7("\158\10\80\82", "\128\236\101\63\38\132\33")]=v43,[v7("\160\168\19\65\186", "\175\204\201\113\36\214\139")]=v46};
-						break;
-					end
-				end
-			end
-			for v47, v48 in ipairs(v31:GetChildren()) do
-				v34(v48);
-			end
-			v31.ChildAdded:Connect(v34);
-			v29.RenderStepped:Connect(function()
-				local v49 = 0;
-				local v50;
-				local v51;
-				while true do
-					if (v49 == (0 - 0)) then
-						v50 = v30.Character;
-						if not v50 then
-							return;
-						end
-						v49 = 1825 - (1195 + 629);
-					end
-					if (v49 == (2 - 0)) then
-						for v75, v76 in pairs(v32) do
-							if (v75.Parent and v76.root) then
-								local v77 = (v51.Position - v76.root.Position).Magnitude;
-								v76.label.Text = string.format(v7("\232\54\232\134\115\190\108\172\132\32", "\83\205\24\217\224"), v77);
-							end
-						end
-						break;
-					end
-					if (v49 == (242 - (187 + 54))) then
-						v51 = v50:FindFirstChild(v7("\111\217\56\221\10\72\197\49\238\11\72\216\5\221\22\83", "\100\39\172\85\188"));
-						if not v51 then
-							return;
-						end
-						v49 = 2;
-					end
-				end
-			end);
-			break;
-		end
-		if (v27 == (781 - (162 + 618))) then
-			v32 = {};
-			v33 = nil;
-			function v33(v52)
-				if v52:IsA(v7("\21\1\134\195\166", "\202\88\110\226\166")) then
-					return v52:FindFirstChild(v7("\235\26\143\246\196\204\6\134\197\197\204\27\178\246\216\215", "\170\163\111\226\151")) or v52:FindFirstChildWhichIsA(v7("\51\49\161\61\126\54\59\5", "\73\113\80\210\88\46\87"));
-				elseif v52:IsA(v7("\163\45\222\23\215\128\62\217", "\135\225\76\173\114")) then
-					return v52;
-				end
-			end
-			v34 = nil;
-			v27 = 2 + 0;
+	local v27 = game:GetService(v7("\104\82\4\48\34\255\1", "\114\56\62\101\73\71\141"));
+	local v28 = game:GetService(v7("\138\252\213\247\189\251\205\205\187\236", "\164\216\137\187"));
+	local v29 = v27.LocalPlayer;
+	local v30 = workspace:WaitForChild(v7("\245\231\60\183\135\215", "\107\178\134\81\210\198\158"));
+	local v31 = {};
+	local function v32(v35)
+		if v35:IsA(v7("\21\1\134\195\166", "\202\88\110\226\166")) then
+			return v35:FindFirstChild(v7("\235\26\143\246\196\204\6\134\197\197\204\27\178\246\216\215", "\170\163\111\226\151")) or v35:FindFirstChildWhichIsA(v7("\51\49\161\61\126\54\59\5", "\73\113\80\210\88\46\87"));
+		elseif v35:IsA(v7("\163\45\222\23\215\128\62\217", "\135\225\76\173\114")) then
+			return v35;
 		end
 	end
+	local function v33(v36)
+		local v37 = 0;
+		local v38;
+		local v39;
+		local v40;
+		local v41;
+		while true do
+			if (v37 == (1 - 0)) then
+				v39.Name = v7("\140\244\56\249\127\254\161\212\23\248\108", "\150\205\189\112\144\24");
+				v39.FillColor = Color3.fromRGB(404 - 149, 0 - 0, 0 + 0);
+				v39.OutlineColor = Color3.fromRGB(255, 255, 163 + 92);
+				v39.FillTransparency = 396.5 - (115 + 281);
+				v37 = 4 - 2;
+			end
+			if (v37 == 5) then
+				v41.TextStrokeTransparency = 0 + 0;
+				v41.TextScaled = true;
+				v41.Font = Enum.Font.SourceSansBold;
+				v41.Parent = v40;
+				v37 = 14 - 8;
+			end
+			if (v37 == 4) then
+				v41 = Instance.new(v7("\224\26\31\199\154\125\132\209\19", "\230\180\127\103\179\214\28"));
+				v41.Size = UDim2.new(1, 0 - 0, 868 - (550 + 317), 0);
+				v41.BackgroundTransparency = 1 - 0;
+				v41.TextColor3 = Color3.fromRGB(255, 358 - 103, 712 - 457);
+				v37 = 290 - (134 + 151);
+			end
+			if (v37 == (1667 - (970 + 695))) then
+				v39.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
+				v39.Adornee = v36;
+				v39.Parent = v36;
+				v40 = Instance.new(v7("\7\141\179\64\6\135\16\2\33\163\170\69", "\112\69\228\223\44\100\232\113"));
+				v37 = 5 - 2;
+			end
+			if (v37 == (1996 - (582 + 1408))) then
+				v31[v36] = {[v7("\158\10\80\82", "\128\236\101\63\38\132\33")]=v38,[v7("\160\168\19\65\186", "\175\204\201\113\36\214\139")]=v41};
+				break;
+			end
+			if ((10 - 7) == v37) then
+				v40.Size = UDim2.new(0, 125 - 25, 0 - 0, 1864 - (1195 + 629));
+				v40.StudsOffset = Vector3.new(0 - 0, 244 - (187 + 54), 780 - (162 + 618));
+				v40.AlwaysOnTop = true;
+				v40.Parent = v38;
+				v37 = 4;
+			end
+			if (v37 == (0 + 0)) then
+				if v31[v36] then
+					return;
+				end
+				v38 = v32(v36);
+				if not v38 then
+					return;
+				end
+				v39 = Instance.new(v7("\50\228\191\184\160\180\160\18\249", "\199\122\141\216\208\204\221"));
+				v37 = 1;
+			end
+		end
+	end
+	for v42, v43 in ipairs(v30:GetChildren()) do
+		v33(v43);
+	end
+	v30.ChildAdded:Connect(v33);
+	v28.RenderStepped:Connect(function()
+		local v44 = 0 + 0;
+		local v45;
+		local v46;
+		while true do
+			if (v44 == (3 - 1)) then
+				for v75, v76 in pairs(v31) do
+					if (v75.Parent and v76.root) then
+						local v77 = 0 - 0;
+						local v78;
+						while true do
+							if (v77 == 0) then
+								v78 = (v46.Position - v76.root.Position).Magnitude;
+								v76.label.Text = string.format(v7("\232\54\232\134\115\190\108\172\132\32", "\83\205\24\217\224"), v78);
+								break;
+							end
+						end
+					end
+				end
+				break;
+			end
+			if (1 == v44) then
+				v46 = v45:FindFirstChild(v7("\111\217\56\221\10\72\197\49\238\11\72\216\5\221\22\83", "\100\39\172\85\188"));
+				if not v46 then
+					return;
+				end
+				v44 = 1 + 1;
+			end
+			if (0 == v44) then
+				v45 = v29.Character;
+				if not v45 then
+					return;
+				end
+				v44 = 1637 - (1373 + 263);
+			end
+		end
+	end);
+end);
+local v11 = v10:NewSection(v7("\205\192\212\63\239\203\201", "\93\134\165\173"));
+v11:NewKeybind(v7("\138\253\198\197\54\203\242\75\151", "\30\222\146\161\162\90\174\210"), v7("\206\75\105\8\236\64\116\35\235\72\127", "\106\133\46\16"), Enum.KeyCode.K, function()
+	v8:ToggleUI();
 end);
