@@ -16,122 +16,153 @@ local v3 = bit32 or bit;
 local v4 = v3.bxor;
 local v5 = table.concat;
 local v6 = table.insert;
-local function v7(v15, v16)
-	local v17 = {};
-	for v30 = 1, #v15 do
-		v6(v17, v0(v4(v1(v2(v15, v30, v30 + 1)), v1(v2(v16, 1 + (v30 % #v16), 1 + (v30 % #v16) + 1))) % 256));
+local function v7(v14, v15)
+	local v16 = {};
+	for v32 = 1, #v14 do
+		v6(v16, v0(v4(v1(v2(v14, v32, v32 + 1)), v1(v2(v15, 1 + (v32 % #v15), 1 + (v32 % #v15) + 1))) % 256));
 	end
-	return v5(v17);
+	return v5(v16);
 end
-local v8 = game:GetService(v7("\225\207\218\60\227\169\212", "\126\177\163\187\69\134\219\167"));
-local v9 = game:GetService(v7("\17\216\36\246\249\49\219\35\198\249", "\156\67\173\74\165"));
-local v10 = v8.LocalPlayer;
-local v11 = workspace:WaitForChild(v7("\19\182\68\19\157\15", "\38\84\215\41\118\220\70"));
-local v12 = {};
-local function v13(v18)
-	if v18:IsA(v7("\125\25\38\23\242", "\158\48\118\66\114")) then
-		return v18:FindFirstChild(v7("\131\49\29\55\125\170\242\175\22\31\57\103\149\250\185\48", "\155\203\68\112\86\19\197")) or v18:FindFirstChildWhichIsA(v7("\100\220\37\249\112\121\247\236", "\152\38\189\86\156\32\24\133"));
-	elseif v18:IsA(v7("\222\86\180\67\204\86\181\82", "\38\156\55\199")) then
-		return v18;
-	end
+local v8 = game.Players.LocalPlayer;
+local v9 = workspace:FindFirstChild(v7("\246\194\214\32\199\146", "\126\177\163\187\69\134\219\167"));
+local function v10(v17)
+	return v17:FindFirstChild(v7("\11\216\39\196\242\44\196\46\247\243\44\217\26\196\238\55", "\156\67\173\74\165")) or v17:FindFirstChild(v7("\28\178\72\18", "\38\84\215\41\118\220\70")) or v17:FindFirstChildWhichIsA(v7("\114\23\49\23\206\81\4\54", "\158\48\118\66\114"));
 end
-local function v14(v19)
-	local v20 = 0 + 0;
+local function v11(v18)
+	return string.sub(v18, 1 - 0, 1 + 1) == v7("\138\13", "\155\203\68\112\86\19\197");
+end
+local function v12(v19)
+	local v20 = 1080 - (1020 + 60);
 	local v21;
-	local v22;
-	local v23;
-	local v24;
 	while true do
-		if (v20 == (524 - (114 + 404))) then
-			v12[v19] = {[v7("\174\204\216\30", "\75\220\163\183\106\98")]=v21,[v7("\14\187\137\50\213", "\185\98\218\235\87")]=v24};
-			break;
-		end
-		if (v20 == (488 - (106 + 382))) then
-			if v12[v19] then
-				return;
-			end
-			v21 = v13(v19);
-			if not v21 then
-				return;
-			end
-			v22 = Instance.new(v7("\128\116\123\32\31\125\253\75\188", "\35\200\29\28\72\115\20\154"));
-			v20 = 412 - (306 + 105);
-		end
-		if (v20 == (4 - 2)) then
-			v22.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
-			v22.Adornee = v19;
-			v22.Parent = v19;
-			v23 = Instance.new(v7("\153\95\197\172\56\95\49\211\191\113\220\169", "\161\219\54\169\192\90\48\80"));
-			v20 = 430 - (166 + 261);
-		end
-		if (v20 == (510 - (289 + 218))) then
-			v23.Size = UDim2.new(1344 - (1213 + 131), 1917 - (1703 + 114), 0 + 0, 24 + 16);
-			v23.StudsOffset = Vector3.new(0 - 0, 10 - 7, 0 - 0);
-			v23.AlwaysOnTop = true;
-			v23.Parent = v21;
-			v20 = 863 - (814 + 45);
-		end
-		if ((12 - 7) == v20) then
-			v24.TextStrokeTransparency = 0 + 0;
-			v24.TextScaled = true;
-			v24.Font = Enum.Font.SourceSansBold;
-			v24.Parent = v23;
-			v20 = 3 + 3;
-		end
-		if (v20 == (886 - (261 + 624))) then
-			v22.Name = v7("\56\150\249\214\138\36\56\16\184\217\203", "\84\121\223\177\191\237\76");
-			v22.FillColor = Color3.fromRGB(453 - 198, 1080 - (1020 + 60), 1423 - (630 + 793));
-			v22.OutlineColor = Color3.fromRGB(255, 863 - 608, 255);
-			v22.FillTransparency = 1180.5 - (1123 + 57);
-			v20 = 9 - 7;
-		end
-		if ((2 + 2) == v20) then
-			v24 = Instance.new(v7("\125\71\24\49\101\67\2\32\69", "\69\41\34\96"));
-			v24.Size = UDim2.new(3 - 2, 1747 - (760 + 987), 1914 - (1789 + 124), 766 - (745 + 21));
-			v24.BackgroundTransparency = 1 + 0;
-			v24.TextColor3 = Color3.fromRGB(391 - 136, 255, 701 - 446);
-			v20 = 5;
-		end
-	end
-end
-for v25, v26 in ipairs(v11:GetChildren()) do
-	v14(v26);
-end
-v11.ChildAdded:Connect(v14);
-v9.RenderStepped:Connect(function()
-	local v27 = 0 - 0;
-	local v28;
-	local v29;
-	while true do
-		if (v27 == (0 + 0)) then
-			v28 = v10.Character;
-			if not v28 then
-				return;
-			end
-			v27 = 1 + 0;
-		end
-		if (v27 == (2 - 0)) then
-			for v53, v54 in pairs(v12) do
-				if (v53.Parent and v54.root) then
-					local v55 = 1055 - (87 + 968);
-					local v56;
-					while true do
-						if (v55 == (0 - 0)) then
-							v56 = (v29.Position - v54.root.Position).Magnitude;
-							v54.label.Text = string.format(v7("\108\143\125\142\105\210\56\157\45\210", "\232\73\161\76"), v56);
-							break;
-						end
+		if (v20 == (0 + 0)) then
+			v21 = 1423 - (630 + 793);
+			while true do
+				if (v21 == (972 - (140 + 831))) then
+					if (v9 and v19:IsDescendantOf(v9)) then
+						return true;
 					end
+					return false;
+				end
+				if (v21 == (0 - 0)) then
+					if not v19:IsA(v7("\107\210\50\249\76", "\152\38\189\86\156\32\24\133")) then
+						return false;
+					end
+					if v11(v19.Name) then
+						return true;
+					end
+					v21 = 4 - 3;
 				end
 			end
 			break;
 		end
-		if (v27 == (1475 - (1329 + 145))) then
-			v29 = v28:FindFirstChild(v7("\227\41\42\231\208\165\194\56\21\233\209\190\251\61\53\242", "\202\171\92\71\134\190"));
-			if not v29 then
+	end
+end
+local function v13(v22)
+	local v23 = 0 + 0;
+	local v24;
+	local v25;
+	local v26;
+	local v27;
+	local v28;
+	while true do
+		if (v23 == (3 + 3)) then
+			v28.TextScaled = true;
+			v28.Font = Enum.Font.SourceSansBold;
+			v28.Parent = v27;
+			task.spawn(function()
+				while v22.Parent and v24.Parent do
+					local v53 = 0 - 0;
+					local v54;
+					local v55;
+					while true do
+						if (v53 == 0) then
+							local v56 = 1747 - (760 + 987);
+							while true do
+								if (v56 == (1914 - (1789 + 124))) then
+									v53 = 767 - (745 + 21);
+									break;
+								end
+								if (v56 == (0 + 0)) then
+									v54 = v8.Character;
+									v55 = v54 and v54:FindFirstChild(v7("\42\175\134\54\215\13\179\143\5\214\13\174\187\54\203\22", "\185\98\218\235\87"));
+									v56 = 1;
+								end
+							end
+						end
+						if (v53 == (2 - 1)) then
+							if v55 then
+								local v57 = 0 - 0;
+								local v58;
+								while true do
+									if (v57 == (1262 - (1091 + 171))) then
+										v58 = (v55.Position - v24.Position).Magnitude;
+										v28.Text = v22.Name .. v7("\139\7", "\202\171\92\71\134\190") .. math.floor(v58) .. v7("\105\210\56\157\45\210\17", "\232\73\161\76");
+										break;
+									end
+								end
+							end
+							task.wait(0.1 + 0);
+							break;
+						end
+					end
+				end
+			end);
+			break;
+		end
+		if (v23 == 2) then
+			v26.FillColor = Color3.fromRGB(3 + 252, 0 + 0, 1055 - (87 + 968));
+			v26.OutlineColor = Color3.fromRGB(1122 - 867, 1267 - 1012, 232 + 23);
+			v26.FillTransparency = 0.5 - 0;
+			v26.Adornee = v22;
+			v23 = 1416 - (447 + 966);
+		end
+		if (v23 == (2 - 1)) then
+			v25 = Instance.new(v7("\142\114\112\44\22\102", "\35\200\29\28\72\115\20\154"));
+			v25.Name = v7("\60\140\225\224\174\35\58\13\190\216\209\136\62", "\84\121\223\177\191\237\76");
+			v25.Parent = v22;
+			v26 = Instance.new(v7("\147\95\206\168\54\89\55\201\175", "\161\219\54\169\192\90\48\80"));
+			v23 = 2;
+		end
+		if (v23 == (1822 - (1703 + 114))) then
+			v28.Size = UDim2.new(702 - (376 + 325), 0 - 0, 203 - (14 + 188), 0 - 0);
+			v28.BackgroundTransparency = 1 + 0;
+			v28.TextColor3 = Color3.fromRGB(73 + 182, 226 + 29, 561 - 306);
+			v28.TextStrokeTransparency = 14 - (9 + 5);
+			v23 = 12 - 6;
+		end
+		if (v23 == (376 - (85 + 291))) then
+			if not v12(v22) then
 				return;
 			end
-			v27 = 2;
+			if v22:FindFirstChild(v7("\217\100\151\121\223\88\169\82\253\94\169\67\238", "\38\156\55\199")) then
+				return;
+			end
+			v24 = v10(v22);
+			if not v24 then
+				return;
+			end
+			v23 = 1;
+		end
+		if (v23 == (1269 - (243 + 1022))) then
+			v27.AlwaysOnTop = true;
+			v27.Adornee = v24;
+			v27.Parent = v25;
+			v28 = Instance.new(v7("\136\198\207\30\46\42\190\198\219", "\75\220\163\183\106\98"));
+			v23 = 19 - 14;
+		end
+		if (v23 == (3 + 0)) then
+			v26.Parent = v25;
+			v27 = Instance.new(v7("\107\75\12\41\75\77\1\55\77\101\21\44", "\69\41\34\96"));
+			v27.Size = UDim2.new(1180 - (1123 + 57), 128 + 72, 0 + 0, 304 - (163 + 91));
+			v27.StudsOffset = Vector3.new(0 + 0, 1933 - (1869 + 61), 0 + 0);
+			v23 = 14 - 10;
 		end
 	end
+end
+for v29, v30 in pairs(workspace:GetDescendants()) do
+	v13(v30);
+end
+workspace.DescendantAdded:Connect(function(v31)
+	v13(v31);
 end);
