@@ -1,0 +1,1 @@
+Hey guys! Since The Mimic Memories got privated a while ago, I will release the final version of my script to give it a proper closing. Expect it to finish in early May. I will update this when everything is completed. Thank you.
