@@ -28,4 +28,4 @@ Final Update
 Everything is finished. For the final script hub, please use "loadstring(game:HttpGet("https://raw.githubusercontent.com/foreverhanakoo/lemimicmemories/refs/heads/main/finalversion"))()"   
 (without the quotation mark)
 
-PS. I know they said the game was going to be privated forever, but if the creator decides to come back and continue creating it, I would update all of my scripts accordingly. For this last message I just wanted to share that I'm very sad that the game got privated since I really loved spending time making scripts on this game. </3 I will NOT be making scripts for The Mimic Igor Mode since it's not related to The Mimic Memories anymore.
+PS. I know they said the game was going to be privated forever, but if the creator decides to come back and continue creating it, I would update all of my scripts accordingly. For this last message I just wanted to share that I'm very sad that the game got privated since I really loved spending time making scripts on this game. </3 I will **NOT** be making scripts for The Mimic Igor Mode since it's not related to The Mimic Memories anymore.
